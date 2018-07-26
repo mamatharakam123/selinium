@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46015" started-at="2018-05-03T14:54:07Z" finished-at="2018-05-03T14:54:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46015" started-at="2018-05-03T14:54:07Z" finished-at="2018-05-03T14:54:53Z">
+      <class name="Demo.DemoTest.App">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Demo.DemoTest.App@3e6fa38a]" name="launchbrowser" is-config="true" duration-ms="12240" started-at="2018-05-03T14:54:07Z" finished-at="2018-05-03T14:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="login()[pri:2, instance:Demo.DemoTest.App@3e6fa38a]" name="login" duration-ms="5263" started-at="2018-05-03T14:54:19Z" finished-at="2018-05-03T14:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="rfqstep()[pri:2, instance:Demo.DemoTest.App@3e6fa38a]" name="rfqstep" duration-ms="23372" started-at="2018-05-03T14:54:24Z" finished-at="2018-05-03T14:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rfqstep -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Demo.DemoTest.App@3e6fa38a]" name="afterMethod" is-config="true" duration-ms="5126" started-at="2018-05-03T14:54:48Z" finished-at="2018-05-03T14:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Demo.DemoTest.App -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

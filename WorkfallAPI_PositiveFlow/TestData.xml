@@ -1,0 +1,62 @@
+<TestData>
+<PO_Data>
+
+
+</PO_Data>
+
+<CEO_Data>
+<!-- UserStory Hours -->
+<data CEO_AnalysisHours="50"/>
+<data CEO_DesignHours="60"/>
+<data CEO_FrontEndHours="80"/>
+<data CEO_BackEndHours="100"/>
+<data CEO_QAHours="100"/>
+<data CEO_SupportHours="40"/>
+<data CEO_IOSHours="70"/>
+<data CEO_AndroidHours="70"/>
+
+<!-- Commercials Page -->
+<data CEO_EstimationMilestoneDays="50"/>
+<data CEO_TaskHours="4"/>
+<data CEO_TaskActivityType="QA"/>
+</CEO_Data>
+
+<Admin_Data>
+
+<data skillExperience="12"/>
+<data IsActive="Active"/>
+
+<!-- Admin Charges -->
+<data Admin_POSignupFee="20"/>
+<data Admin_DeveloperSignupFee="20"/>
+<data Admin_DefaultAdvance="30"/>
+<data Admin_FairPricePercentage="80"/>
+<data Admin_BAPrice="10"/>
+<data Admin_DesignPrice="10"/>
+<data Admin_FrontEndPrice="12"/>
+<data Admin_BackEndPrice="14"/>
+<data Admin_QAPrice="12"/>
+<data Admin_SupportPrice="10"/>
+<data Admin_IOSPrice="12"/>
+<data Admin_AndroidPrice="12"/>
+<!-- Developer Hourly charges when assigning to project -->
+<data Admin_DeveloperHourlyCharges="10"/>
+<!-- Terms & Conditions -->
+<data Admin_Version="8.14"/>
+<data Admin_TermsAndConditions="^DATE^^CLIENT_NAME^^CLIENT_ADDRESS^"/>
+<!-- Create Project Different Percentages -->
+<data Admin_L0Percentage="70"/>
+<data Admin_L1Percentage="80"/>
+<data Admin_L2Percentage="90"/>	
+
+<data Admin_ConfigureLeaveDays="2"/>	
+
+</Admin_Data>
+
+<Developer_Data>
+<!-- Skills Page -->
+<data Developer_Experience="30"/>
+<data Developer_HourlyRate="10"/>
+<data Developer_WeeklyHours="40"/>	
+</Developer_Data>
+</TestData>

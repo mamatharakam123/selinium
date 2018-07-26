@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//log4j/log4j Configuration//EN" "log4j.dtd">
+ 
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+ 
+  <appender name="Appender1" class="org.apache.log4j.ConsoleAppender">
+       <layout class="org.apache.log4j.PatternLayout">
+          <param name="ConversionPattern" value="%d [%t] %-7p %c %x - %m%n"/>
+       </layout>
+       </appender>
+    <appender name="Appender2" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="applog.txt" />
+        <param name="Append" value="false"/>
+        <param name="Threshold" value="DEBUG"/>
+        <appendToFile value="true" />
+   <param name="DatePattern" value="'.'yyyy_MM_dd"/>
+   <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+      <param name="fileNamePattern" value="applog_%d{ddMMMyyyy}.txt"/>
+      <param name="rollOver" value="TRUE"/>
+   </rollingPolicy>
+     
+       <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="%d [%t] %-7p %c %x - %m%n"/>
+       </layout>
+       </appender>
+    
+    <root>
+        <priority value="DEBUG"/>
+        <appender-ref ref="Appender1" />
+        <appender-ref ref="Appender2" />
+    </root>
+         
+</log4j:configuration>
+
